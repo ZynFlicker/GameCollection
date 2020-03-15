@@ -1,5 +1,7 @@
 #pragma once
 #include "GameOption.h"
+
+//游戏后选项类
 class EndOption :public GameOption
 {
 private:
