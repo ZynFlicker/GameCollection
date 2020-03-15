@@ -1,7 +1,6 @@
 #pragma once
 #include"MineSweepResource.h"
 
-
 #define MS_IMG_SIZE 35
 //É¨À×ÓÎÏ·¿ØÖÆÀà
 class MineSweepCtrl :public BlockCtrl
