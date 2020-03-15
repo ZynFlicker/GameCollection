@@ -1,6 +1,6 @@
 #include "MineSweepOption.h"
 
-//初始化选项的字符
+//初始化选项的字符 
 void MineSweepOption::_initOptions()
 {
 	options = new char* [n_option];
