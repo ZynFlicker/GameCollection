@@ -1,6 +1,7 @@
 #pragma once
 
 #include "BlockImg.h"
+//扫雷游戏图片资源类
 class MineSweepImg : public BlockImg
 {
 private:
