@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\MineSweepImg">
+      <UniqueIdentifier>{ba98f2ff-80b5-497f-b7f5-3b6bf7177d08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MineSweepImg\blank.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\chosen.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\flag.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\flag_chosen.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\flag_mine.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\mine.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\normal.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\quote.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+    <Image Include="MineSweepImg\quote_chosen.bmp">
+      <Filter>资源文件\MineSweepImg</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlockCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockImg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpressImg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EndOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweepBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweepCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweepImg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweepOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MineSweepResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EndOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweepCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweepImg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweepOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
