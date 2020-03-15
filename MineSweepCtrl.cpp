@@ -4,7 +4,7 @@
 #include<cstdlib>
 #include<stdio.h>
 
-//游戏棋盘初始化
+//游戏棋盘初始化 
 void MineSweepCtrl::_initCtrl()
 {
 	initgraph(rows * MS_IMG_SIZE, cols * MS_IMG_SIZE, INIT_RENDERMANUAL);
