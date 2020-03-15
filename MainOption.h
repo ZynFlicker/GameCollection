@@ -1,5 +1,7 @@
 #pragma once
 #include "GameOption.h"
+
+//游戏主控制选项界面类
 class MainOption : public GameOption
 {
 private:
