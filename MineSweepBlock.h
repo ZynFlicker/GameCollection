@@ -1,7 +1,6 @@
 #pragma once
 #include "Block.h"
 
-
 //扫雷块的显示类型
 enum MSBType { BLANK, NORMAL, CHOSEN, FLAG, FLAG_CHOSEN, QUOTE, QUOTE_CHOSEN, MINE, FLAG_MINE };
 
