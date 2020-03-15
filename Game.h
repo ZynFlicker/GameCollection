@@ -1,6 +1,8 @@
 #pragma once
 #include"GameResource.h"
 #include"MainOption.h"
+
+//游戏主控制类
 class Game
 {
 private:
