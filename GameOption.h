@@ -13,7 +13,7 @@ enum GAMEMSG
 	MINESWEEP, EMPRESS, COMING
 };
 
-//选项窗口类
+//选项窗口抽象基类
 //考虑到对这个游戏合集进行扩展的话会有大量的选项窗口，因此抽象该类
 class GameOption
 {
