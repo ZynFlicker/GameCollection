@@ -1,5 +1,7 @@
 #pragma once
 #include "GameOption.h"
+
+//扫雷游戏选项类
 class MineSweepOption : public GameOption
 {
 private:
