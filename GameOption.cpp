@@ -47,7 +47,6 @@ void GameOption::_mouseCtrl(mouse_msg msg, GAMEMSG& g_msg)
 	}
 }
 
-
 //选项控制的主体
 GAMEMSG GameOption::GameOptions()
 {
