@@ -9,7 +9,7 @@ PIMAGE MineSweepImg::quote = nullptr;
 PIMAGE MineSweepImg::quote_chosen = nullptr;
 PIMAGE MineSweepImg::mine = nullptr;
 PIMAGE MineSweepImg::flag_mine = nullptr;
-
+ 
 PIMAGE MineSweepImg::getBlockImg(int blocktype)
 {
 	switch (blocktype)
