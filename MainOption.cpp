@@ -9,7 +9,7 @@ void MainOption::_initOptions()
 	options[2] = new char[9] {"¾´ÇëÆÚ´ý"};
 	options[3] = new char[9] {"ÍË    ³ö"};
 }
-
+ 
 GAMEMSG MainOption::_optionCtrl(int option)
 {
 	switch (option)
